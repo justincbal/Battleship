@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "vite dev",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "vite": "^4.4.2"
+  }
+}

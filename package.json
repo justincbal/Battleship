@@ -1,4 +1,8 @@
 {
+  "jest": {
+    "moduleFileExtensions": ["js", "jsx"],
+    "moduleDirectories": ["node_modules", "bower_components", "src"]
+  },
   "scripts": {
     "dev": "vite dev",
     "test": "jest"

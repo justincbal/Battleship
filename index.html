@@ -13,15 +13,19 @@
         <!-- Start menu window -->
         <div class="menu">
             <h2 class="white bold">Project: Battleship</h2>
-            <p class="white">Select an option:</p>
-            <button class="menuOption">Player VS Computer</button>
-            <button class="menuOption">Player VS Player</button>
+            <p class="white menuMessage">Select an option:</p>
+            <button class="menuOption vsPlayer">Player VS Player</button>
+            <button class="menuOption vsCPU">Player VS CPU</button>
+            <!-- <input type="text" name="pName" id="pName" class='pName'>
+            <button class="submit menuOption">Submit</button> -->
+
         </div>
 
         <!-- Main content -->
         <div class="main blur">
             <header class="hd">
                 <h2 class="heading white bold">Project: Battleship</h2>
+                <h3 class="gameMessage green"></h3>
             </header>
 
             <div class="gameboards">
@@ -31,6 +35,23 @@
 
                 <div class="board board2">
 
+                </div>
+            </div>
+
+            <div class="tracker">
+                <div class="player1">
+                    <h2 class="white bold">Player 1</h2>
+                    <ul class="list">
+                        <li class="text listItem">Carrier</li>  
+                        <li class="text listItem">Battleship</li>
+                        <li class="text listItem">Destroyer</li>
+                        <li class="text listItem">Cruiser</li>
+                        <li class="text listItem">Submarine</li>
+                    </ul>
+                </div>
+                <h2 class="green bold">VS</h2>
+                <div class="player2">
+                    <h2 class="white bold">Computer</h2>
                 </div>
             </div>
         </div>
